@@ -2,7 +2,7 @@
 
 ### https://github.com/reddogproductions/AzureDemoLab
 
-private Azure demo environment
+Microsoft internal Azure demo environment
 **Explore the docs 📃**
 
 [View Demo](https://rdweb.wvd.microsoft.com/arm/webclient/index.html) • Report Bug • Request Feature
@@ -15,8 +15,8 @@ private Azure demo environment
 
 ## About The Demo
 
-Even while WVD is a awesome service, internal employees are unable to show all related aspects due to Azure AD restrictions in the microsoft.onmicrosoft.com tenant. 
-This demo environment has been setup in a rather special way (split setup over multiple tenants and subscriptions) to circumvent these shortcomings and also gives us the opportunity to showcase cross tenant/subscription functionality that's built-in to Azure. 
+Even while WVD is a awesome service, internal employees are unable to show all related aspects due to the Azure AD restrictions in the microsoft.onmicrosoft.com tenant. 
+This demo environment has been setup in a rather special way (split setup over multiple tenants and subscriptions) to circumvent these shortcomings. In the meanwhile this also gives us the opportunity to showcase cross tenant/subscription functionality that's built-in to Azure. 
 
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
 
