@@ -1,4 +1,4 @@
-[![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/reddog_400x400.jpg)
+[![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/rdp_logo.png)
 
 ### https://github.com/reddogproductions/AzureDemoLab
 
