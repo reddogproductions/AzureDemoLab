@@ -28,6 +28,7 @@ While the offices have access restrictions due to Corona, RDP has enabled Window
 After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
 
 Walk through the demo script to showcase Windows Virtual Desktop and related Azure Services
+
 ### Credentials
 
 request your credentials in the following [Teams site](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (MSFT only)
