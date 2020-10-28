@@ -1,0 +1,111 @@
+# Windows Virtual Desktop
+
+[TOC]
+
+## Design
+
+![wvd design](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
+
+The overall design of the WVD Demo setup is based upon 2 tenants and 2 subscriptions:
+**MSFT tenant/subscription:**
+No rights on Azure AD, but we do have budget for the infra part on the AIRS subscription itself.
+Infra: VM’ s, vWAN, Azure Firewall, vNET..
+Access to this subscription is provided by Azure Lighthouse from the MSDN subscriptions
+
+**MSDN tenants/subscriptions:**
+Full rights on Azure AD, but limited budget. 
+There are 25 M365 licenses assigned to this Azure AD.
+This is where the WVD and Azure AD Premium services are created
+
+## Demo WVD
+
+
+
+> If it's the first time you will use your demo account, make sure you have gone through the steps to finalize the activation your account. Log into www.office.com to do so.
+
+
+
+There are 2 clients available to access your WVD workspaces
+
+1. HTML5 Browser: 
+
+   the most easy and simple is to use a HTML 5 browser (Edge Chromium works best):
+
+   Open following link: https://rdweb.wvd.microsoft.com/arm/webclient/index.html 
+
++ log in with yourname@reddogproductions.tech account
+
+  ![wvd browser client](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/browserwvd.png)
+
+2. WVD fat client
+
+   which is available for:
+
+   - Windows
+   - Mac
+   - iOS
+   - Android
+
+The Windows client can be downloaded here: 
+https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-windows-7-10#install-the-windows-desktop-client 
+Once installed, open the remote desktop app 
+
+![w10 wvd client](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/w10wvdclient.png)
+
+specify the feed URL https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery
+
+![wvd feed](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/wvdfeedurl.png)
+
+and log in with yourname@reddogproductions.tech account
+
+![login wvd](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/login.png)
+
+All the apps are shown in the WVD client, but also show up in the start-up folder. 
+
+![wvd fatclient](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/wvdfatclient.png)
+
+Opening remote applications have a 'like local' experience.
+Applications will only show up when they are assigned to you, for example SSMS would be assigned to database admins
+
+## Show WVD in the Azure Portal
+
+### Workspaces
+
+![wvd workspaces](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/workspaces.png)
+
+> Additional info:
+>
+> -	A workspace was called ‘tenant’ in the classic version of WVD 
+> -	A workspace needs to exist before you can deploy host pools
+> -	Each workspace can list different sets of host pools and application groups
+
+### Host Pools
+
+![wvd host pools](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/hostpools.png)
+
+Host pool RDP settings:
+
+![host pool settings](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/hostpoolsettings.png)
+
+> Additional info:
+> You need to link the Host Pools to Workspaces when creating them
+> You need to create multiple host pools when: 
+>
+> -	You want to offer both Full Desktop & Remote Apps (cannot be combined)
+> -	You need VM’s with and without GPU
+> -	When you need different RDP properties 
+>   (connection info / session behavior / device redirection)
+>   A host pool can only be member of 1 WVD Workspace at the same time
+
+### Application Groups
+
+![wvd app groups](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/appgroups.png)
+
+Once you have added applications, you need to assign users and/or groups:
+
+![assign apps](https://chlams.blob.core.windows.net/public/reddogproductions/pics/wvd/assignapps.png)
+
+> Additional info:
+> Application Groups need to be linked to a Host Pool (and only 1 host pool)
+> When assigning users: nested groups are not supported (group in group)
+> Apps can be added by listing the apps installed on the Host Pool (portal) or by specifying the location of the app on the server.
