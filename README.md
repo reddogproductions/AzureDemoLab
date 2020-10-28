@@ -22,7 +22,7 @@ This demo environment has been setup in a rather special way (split setup over m
 
 ## Getting Started
 
-storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
+storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. RDP has offices in the US and Europe and share the same Azure AD, the Azure subscriptions are region bound. 
 
 While the offices have access restrictions due to Corona, RDP has enabled Windows Virtual Desktop for all employees who require access to internal applications. 
 After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
