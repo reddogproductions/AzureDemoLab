@@ -11,8 +11,6 @@ private Azure demo environment
 
 ## Table of Contents
 
-- Table of Contents
-
 - About The Demo
 
 - Getting Started
