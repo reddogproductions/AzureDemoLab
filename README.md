@@ -15,19 +15,19 @@ private Azure demo environment
 
 ## About The Demo
 
-Even while WVD is a awesome service, internal employees are unable to show all related aspects due to Azure AD restrictions in the microsoft.onmicrosoft.com tenant. This demo environment has been setup in a rather special way (split setup over multiple tenants and subscriptions) to circumvent these shortcomings. This also gives us the option to show cross tenant/subscription functionality built-in in Azure. 
+Even while WVD is a awesome service, internal employees are unable to show all related aspects due to Azure AD restrictions in the microsoft.onmicrosoft.com tenant. 
+This demo environment has been setup in a rather special way (split setup over multiple tenants and subscriptions) to circumvent these shortcomings and also gives us the opportunity to showcase cross tenant/subscription functionality that's built-in to Azure. 
 
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
 
-RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
+## Getting Started
+
+storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
 
 While the offices have access restrictions due to Corona, RDP has enabled Windows Virtual Desktop for all employees who require access to internal applications. 
 After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
 
 Walk through the demo script to showcase Windows Virtual Desktop and related Azure Services
-
-## Getting Started
-
 ### Credentials
 
 request your credentials in the following [Teams site](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (MSFT only)
