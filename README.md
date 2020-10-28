@@ -11,23 +11,13 @@ private Azure demo environment
 
 ## Table of Contents
 
-- About The Demo
-
-- Getting Started
-
-  Prerequisites
-
-  demo account
-
-- Usage
-
-- Roadmap
-
-- Contributing
-
-- Contact
+[TOC]
 
 ## About The Demo
+
+Even while WVD is a awesome service, internal employees are unable to show all related aspects due to Azure AD restrictions in the microsoft.onmicrosoft.com tenant. This demo environment has been setup in a rather special way (split setup over multiple tenants and subscriptions) to circumvent these shortcomings. This also gives us the option to show cross tenant/subscription functionality built-in in Azure. 
+
+![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
 
 RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
 
