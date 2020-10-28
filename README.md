@@ -1,4 +1,4 @@
-[![Logo](https://github.com/oGranny/readme-template-extension/raw/master/assets/icon.png)](https://github.com/oGranny/readme-template-extension)
+[![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/reddog_400x400.jpg)
 
 ### https://github.com/reddogproductions/AzureDemoLab
 
