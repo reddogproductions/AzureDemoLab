@@ -26,8 +26,8 @@ As Microsoft employee there are a few options to show Windows Virtual Desktop to
 
  By introducing this new 'full featured' and reusable WVD (and more) demo environment you now have a new option where you have control over everything that  a modern organization can deploy.
 
-> This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
-> This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and automatically start and stop.
+This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
+This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and automatically start and stop.
 
 
 
