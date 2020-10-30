@@ -24,10 +24,10 @@ As Microsoft employee there are a few options to show Windows Virtual Desktop to
 | Microsoft internal subscription                   | subscription with budget       | no rights on Azure AD tenant               |
 | PowerPoint clickthrough WVD demo                  | safe option                    | slideware                                  |
 
- By introducing this new 'full featured' and reusable WVD (and more) demo environment you now have a new option where you have control over everything that  a modern organization can deploy.
+ By introducing this new 'full featured' and reusable WVD (and more) demo environment you now have a new option where you have control over everything that  a modern organization can or would deploy on Azure.
 
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
-This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and automatically start and stop.
+This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and scheduled to automatically start and stop.
 
 
 
@@ -41,7 +41,7 @@ RDP has offices in the US and Europe and share the same Azure AD, while Azure su
 
 While the offices have access restrictions due to Corona, RDP has enabled Windows Virtual Desktop for all employees who require access to internal applications. After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
 
-Walk through the demo script to showcase Windows Virtual Desktop and related Azure Services
+Walk through the [demo script](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) to showcase Windows Virtual Desktop and related Azure Services
 
 
 ### Credentials
@@ -103,17 +103,12 @@ Following list of technology can be part of your demo:
 
 - Windows Virtual Desktop (Spring 2020 update)
 
-- Pooled Desktop with W10 Multi-User
-
-- Personal Desktops (developers)
-
-- Remote Applications
-
-  - Company applications
-  - GPU application (design/engineering)
-
-- FSLogix user profiles
-
+  - Pooled Desktop with W10 Multi-User
+  - Personal Desktops (developers)
+  - Remote Applications
+    - Company applications
+    - GPU application (design/engineering)
+  - FSLogix user profiles
   - Domain Joined Azure Files
 
 - Azure DevTest Labs
@@ -136,15 +131,13 @@ Following list of technology can be part of your demo:
 
 **AZURE AIRS SUBSCRIPTION**
 
-- Azure vWAN VPN HUB
+- Azure vWAN + Azure Firewall
 
 - Virtual Network for WVD Session Hosts
 
 - virtual Network for IAM (domain controller)
 
 - Network security Groups
-
-- Azure vWAN + Azure Firewall
 
 - VNET peering to MSDN subscription
 
@@ -221,9 +214,9 @@ services on roadmap:
 
 There are a few ways to contribute to this project:
 
-1. 'attach' your AIRS subscription to the tenant (Azure Lighthouse) and build services on top of the environment
+1. help with the lifecycle management of the project 
 
-2. help with the project
+2. 'attach' your AIRS subscription to the tenant (Azure Lighthouse) and build services on top of the demo environment
 
 3. help with documentation:
 
