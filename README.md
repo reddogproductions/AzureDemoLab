@@ -30,7 +30,8 @@ as an example: Let's have a look at the options we (CSA's) have to show Windows 
 | Microsoft internal subscription                   | subscription with budget       | no rights on the MSFT Azure AD tenant      |
 | PowerPoint clickthrough WVD demo                  | the 'safe' option              | slideware                                  |
 
-By introducing this new 'full featured' and reusable WVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Each specialist can truly showcase our products without having to fall back on PowerPoint slides (demo guides available!) and when multiple users use the same environment, then there is even more data to work with and the results will be even more compelling!
+By introducing this new 'full featured' and reusable WVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Adding Power Platform,data solutions, DevOps,...
+Each specialist can truly showcase our products/solutions/integrations between services without having to fall back on PowerPoint slides (demo guides available!) and when multiple users use the same environment, then there is even more data to work with and the results will be even more compelling!
 
 Too many reasons not to give this a try right?
 
