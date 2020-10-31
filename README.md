@@ -37,7 +37,7 @@ Too many reasons not to give this a try right?
 ## How did we build it?
 
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
-This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and scheduled to automatically start and stop.
+This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) running on Standard SSD storage and scheduled to automatically start and stop.
 
 
 
