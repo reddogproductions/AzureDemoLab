@@ -15,16 +15,26 @@ MSFT private Azure demo environment
 
 ## About The Demo Environment
 
-As Microsoft employee there are a few options to show Windows Virtual Desktop to your customers
+There are a few reasons why I wanted to build this demo environment, the first and most obvious one is that I just like our technology and love to build and play around with it to increase my knowledge. 
+
+A second reason is that it could also be used by others to improve their knowledge on Azure solutions. You might have an upcoming Azure exam (TSI) and want to know how our services are configured and glued together into solutions? Then this could be a good place to start!
+
+A less obvious reason is that some of our solutions can't be put into a single category. Look at Windows Virtual Desktop for example: Windows 10 and Azure AD (premium) are usually handled by our Modern Workplace specialist. Virtual Machines, virtual networks and firewalls fall under the category of Azure and handled by the Cloud Solution Architects. This introduces some issues when we want to demo this service: Cloud Solution Architects have access to internal Azure subscriptions, but not to Azure AD and MW specialist usually don't have access to services running on Azure (WVD, Sentinel..).
+
+as an example: Let's have a look at the options we (CSA's) have to show Windows Virtual Desktop to your customers:
 
 | solution                                          | pro                            | con                                        |
 | ------------------------------------------------- | ------------------------------ | ------------------------------------------ |
 | the WVD environment hosted by Microsoft           | Microsoft managed              | no access to Azure subscription and tenant |
-| Self hosted demo environment (MSDN/Visual Studio) | flexibility, licenses included | limited budget                             |
-| Microsoft internal subscription                   | subscription with budget       | no rights on Azure AD tenant               |
-| PowerPoint clickthrough WVD demo                  | safe option                    | slideware                                  |
+| Self hosted demo environment (MSDN/Visual Studio) | flexibility, licenses included | limited budget, less data to work with     |
+| Microsoft internal subscription                   | subscription with budget       | no rights on the MSFT Azure AD tenant      |
+| PowerPoint clickthrough WVD demo                  | the 'safe' option              | slideware                                  |
 
- By introducing this new 'full featured' and reusable WVD (and more) demo environment you now have a new option where you have control over everything that  a modern organization can or would deploy on Azure.
+By introducing this new 'full featured' and reusable WVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Each specialist can truly showcase our products without having to fall back on PowerPoint slides (demo guides available!) and when multiple users use the same environment, then there is even more data to work with and the results will be even more compelling!
+
+Too many reasons not to give this a try right?
+
+## How did we build it?
 
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
 This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) and scheduled to automatically start and stop.
@@ -32,6 +42,9 @@ This split setup gives us best of both worlds, Azure AD without (management) lim
 
 
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
+
+Another advantage of this split setup is that you can also show what options we have to work cross tenant/subscription.
+
 
 
 ## Demo Storyline
