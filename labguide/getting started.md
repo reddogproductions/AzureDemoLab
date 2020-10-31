@@ -2,11 +2,11 @@ Please go through all recommendations to insure a smooth demo experience with yo
 
 ## Activate your Account
 
-To safeguard the demo environment all access needs to be approved, this can be done by joining the [RedDogProductions](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel and request your login credentials.
+To safeguard the demo environment access needs to be approved first , this can be done by joining the [RedDogProductions](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel and request your @reddogproductions.tech account login credentials.
 When you receive your account credentials you will need to go through a few additional steps to complete the account setup.
-Navigate to https://www.office.com and follow the wizard to add your phone number and alternative email address.
+Open a in-private browser session and navigate to https://www.office.com, login with the new account and follow the wizard to add your phone number and alternative email address.
 
-Verify you can log-in to http://portal.azure.com and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
+Verify you can log-in to https://portal.azure.com and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
 
 ![login](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20account.png)
 
