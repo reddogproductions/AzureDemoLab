@@ -2,7 +2,7 @@ Please go through all recommendations to insure a smooth demo experience with yo
 
 ## Activate your Account
 
-To safeguard the demo environment all access needs to be approved, this can be done by joining the [RedDogProductions](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47).
+To safeguard the demo environment all access needs to be approved, this can be done by joining the [RedDogProductions](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel and request your login credentials.
 When you receive your account credentials you will need to go through a few additional steps to complete the account setup.
 Navigate to https://www.office.com and follow the wizard to add your phone number and alternative email address.
 
