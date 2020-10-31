@@ -32,7 +32,7 @@ Select the AIRS subscription
 
 ![lighthouse delegation](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/Lighthousedelegation.png)
 
-Notice your contributor role on the AIRS subscription and select Resource Groups, these will vary according to your rights
+Notice your role on the AIRS subscription and select Resource Groups, these will vary according to your rights
 
 ![lighthouse access rights](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighouseaccess.png)
 
