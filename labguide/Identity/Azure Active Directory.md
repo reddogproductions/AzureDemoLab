@@ -1,0 +1,51 @@
+# Azure Active Directory
+
+To showcase all functionalities in Azure AD you will need to self-service request your rights through 
+**Azure Privileged Identity Management** (PIM).
+Navigate to the PIM service in Azure and activate your elevated rights
+
+![pim1](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/pim1.png)
+
+Select the duration time and reason for the access request 
+
+![pim2](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/pim2.png)
+
+Wait until all 3 stages are passed
+
+![pim3](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/pim3.png)
+
+Navigate to the Azure AD service in the portal
+
+![aad](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aad.png)
+
+Show different type of users and assignments, click through on users to show user details
+
+![aad users](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadusers.png)
+
+Showcase the Self-Service Password Reset option (needs to be enabled in Azure AD Connect)
+
+![sspr](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/sspr.png)
+
+Navigate to Azure AD Groups and show the different types of groups
+
+![aad usergroups](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadgroups.png)
+
+Show group settings
+
+![groupsettings](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadgroupsettings.png)
+
+Show Access Reviews
+
+![group accessreviews](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadaccessreviews.png)
+
+Go back to Azure AD and show RBAC functionality in Azure AD (Azure has different set of roles)
+
+![aad rbac](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadrbac.png)
+
+Go back and select Azure AD connect to discuss the sign-in options in detail
+
+![aadconnect](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadconnect.png)
+
+Go back and select Security to cover all security related aspects in Azure AD
+
+![aad security](https://chlams.blob.core.windows.net/public/reddogproductions/pics/aad/aadsecurity.png)
