@@ -16,7 +16,21 @@ Verify you can log-in to https://portal.azure.com and select the RedDogProductio
 
 ## Start/Stop VM's
 
-All Virtual Machines start automatically at 9AM and shut down at 6PM by **Azure Automation**. If you have the need to work with the environment outside of these hours or you need the GPU VM, you can start them up by using **Azure LightHouse**.
+All Virtual Machines (except the GPU VM) start automatically at 9AM and shut down at 6PM by **Azure Automation**. If you have the need to work with the environment outside of these hours or you need the GPU VM, you have following options:
+
+### Azure Mobile App
+
+download the Azure App from your app store provider.
+
+![mobile app](https://azurecomcdn.azureedge.net/cvt-9281d9db0c63a479d39019e02b1bc35d712622992174d8bb4dcb33f728511a17/images/page/features/azure-portal/mobile-app/panel-1.png)
+
+### Azure PowerApp
+
+![powerapp](https://chlams.blob.core.windows.net/public/reddogproductions/pics/powerapps/startstopvms.png)
+
+request the PowerApp to be shared with you (Teams Channel)
+
+###  Azure LightHouse
 
 ![lighthouse search](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousesearch.png)
 
@@ -54,15 +68,17 @@ Select the first VM and click start
 
 
 
-Don't forget to shut them down when you no longer need them! ;) 
-
-(same procedure, just use the stop button instead)
+Whatever tool you are using, don't forget to shut the VM's back down when no longer needed.
 
 
 
 ## Reference links:
 
 Azure Lighthouse: https://docs.microsoft.com/en-us/azure/lighthouse/overview
+
+PowerApps: https://docs.microsoft.com/en-us/powerapps/powerapps-overview
+
+Azure Mobile App: https://azure.microsoft.com/nl-nl/features/azure-portal/mobile-app/
 
 Start/Stop VM's: https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management
 
