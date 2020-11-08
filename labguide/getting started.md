@@ -8,9 +8,9 @@ Open a in-private browser session and navigate to https://www.office.com, login 
 
 Verify you can log-in to https://portal.azure.com and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
 
-![login](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20account.png)
+<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20account.png" alt="login" style="zoom:67%;" />
 
-![tenant](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20directory.png)
+<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20directory.png" alt="tenant" style="zoom:67%;" />
 
 
 
@@ -60,11 +60,11 @@ Select the resource group containing the WVD resources
 
 filter on virtual machines
 
-![VM filter](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousevmfilter.png)
+<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousevmfilter.png" alt="VM filter" style="zoom:67%;" />
 
 Select the first VM and click start
 
-![start stop vm](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousestartstopvm.png)
+<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousestartstopvm.png" alt="start stop vm" style="zoom: 67%;" />
 
 
 
