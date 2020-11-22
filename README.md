@@ -29,6 +29,10 @@ MSFT private Azure demo environment
 
 [Contact](Contact)
 
+## Audience
+
+This demo environment is to be used by Microsoft Employees, at this time the scope is set to the Belgian subsidiary
+
 ## About The Demo Environment
 
 There are a few reasons why I wanted to build this demo environment, the first and most obvious one is that I just like our technology and love to build and play around with it to increase my own knowledge. 
