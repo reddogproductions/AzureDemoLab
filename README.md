@@ -31,13 +31,11 @@ MSFT private Azure demo environment
 
 ## Audience
 
-This demo environment is to be used by Microsoft Employees, at this time the scope is set to the Belgian subsidiary
+This demo environment is to be used by Microsoft Employees, currently the scope is limited to the Belgian subsidiary.
 
 ## About The Demo Environment
 
-There are a few reasons why I wanted to build this demo environment, the first and most obvious one is that I just like our technology and love to build and play around with it to increase my own knowledge. 
-
-A second reason is the Microsoft Certified Trainer in me that would like this environment to be used by others to improve their knowledge on Azure solutions. You might have an upcoming Azure exam (TSI) and want to know how our services are configured and glued together into solutions? Then this could be a good place to start!
+There are a few reasons why I wanted to build this demo environment, the first one is that I just like our technology and love to build and play around with it to increase my own knowledge. A second reason is the Microsoft Certified Trainer in me that would like this environment to be used by others to improve their knowledge on Azure solutions. You might have an upcoming Azure exam (TSI) and want to know how our services are configured and glued together into solutions? Then this could be a good place to start!
 
 A less obvious reason is that some of our solutions can't be put into a single category. Look at Windows Virtual Desktop for example: Windows 10 and Azure AD (premium) are usually handled by our Modern Workplace specialist. Virtual Machines, virtual networks and firewalls fall under the category of Azure and handled by the Cloud Solution Architects. This introduces some issues when we want to demo this service: Cloud Solution Architects have access to internal Azure subscriptions, but not to Azure AD and MW specialist usually don't have access to services running on Azure (WVD, Sentinel..).
 
