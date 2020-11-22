@@ -11,7 +11,23 @@ MSFT private Azure demo environment
 
 ## Table of Contents
 
-[TOC]
+[About The Demo Environment](#About The Demo Environment)
+
+[Split setup approach](Split setup approach)
+
+[Demo Storyline](Demo Storyline)
+
+[Request access](Request access)
+
+[Prerequisites](Prerequisites)
+
+[Demo guide](Demo guide)
+
+[Roadmap](Roadmap)
+
+[Contributing](Contributing)
+
+[Contact](Contact)
 
 ## About The Demo Environment
 
@@ -35,7 +51,7 @@ Each specialist can truly showcase our products/solutions/integrations between s
 
 Too many reasons not to give this a try right?
 
-## How did we build it?
+## Split setup approach
 
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
 This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) running on Standard SSD storage and scheduled to automatically start and stop.
@@ -48,7 +64,7 @@ Another advantage of this split setup is that you can also show what options we 
 
 
 
-## Demo Storyline
+### Demo Storyline
 
 storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. 
 RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
@@ -58,7 +74,7 @@ While the offices have access restrictions due to Corona, RDP has enabled Window
 Walk through the [demo script](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) to showcase Windows Virtual Desktop and related Azure Services
 
 
-### Credentials
+### Request access
 
 request your credentials in the following [Teams site](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (MSFT only)
 
@@ -81,7 +97,7 @@ request your credentials in the following [Teams site](https://teams.microsoft.c
 
     
 
-## Usage
+## Demo guide
 
 Follow the [documentation](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) that contains the demo scripts.
 
