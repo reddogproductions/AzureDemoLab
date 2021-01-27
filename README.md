@@ -11,13 +11,13 @@ MSFT private Azure demo environment
 
 ## Table of Contents
 
-[About The Demo Environment](## About The Demo Environment)
+[About The Demo Environment](About The Demo Environment)
 
 [Split setup approach](Split setup approach)
 
 [Demo Storyline](Demo Storyline)
 
-[Request access](### Request access)
+[Request access](Request access)
 
 [Prerequisites](Prerequisites)
 
