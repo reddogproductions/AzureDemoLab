@@ -1,7 +1,7 @@
 
 # Welcome
 
-[![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/rdp_logo.png)
+![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/rdp_logo.png)
 
 ## <https://github.com/reddogproductions/AzureDemoLab>
 
