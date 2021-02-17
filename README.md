@@ -1,13 +1,14 @@
+
+# Welcome
+
 [![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/rdp_logo.png)
 
-### https://github.com/reddogproductions/AzureDemoLab
+## <https://github.com/reddogproductions/AzureDemoLab>
 
 MSFT private Azure demo environment
 [**Explore the docs 📃**](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide)
 
-[View Demo](https://rdweb.wvd.microsoft.com/arm/webclient/index.html) • [Report Bug](https://github.com/reddogproductions/AzureDemoLab/issues) 
-
-
+[View Demo](https://rdweb.wvd.microsoft.com/arm/webclient/index.html) • [Report Bug](https://github.com/reddogproductions/AzureDemoLab/issues)
 
 ## Table of Contents
 
@@ -58,28 +59,22 @@ Too many reasons not to give this a try right?
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
 This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) running on Standard SSD storage and scheduled to automatically start and stop.
 
-
-
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
 
 Another advantage of this split setup is that you can also show what options we have to work cross tenant/subscription.
 
-
-
 ### Demo Storyline
 
-storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform. 
-RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound. 
+storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform.
+RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound.
 
 While the offices have access restrictions due to Corona, RDP has enabled Windows Virtual Desktop for all employees who require access to internal applications. After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
 
 Walk through the [demo script](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) to showcase Windows Virtual Desktop and related Azure Services
 
-
 ### Request access
 
 request your credentials in the following [Teams site](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) (MSFT only)
-
 
 ### Prerequisites
 
@@ -97,26 +92,24 @@ request your credentials in the following [Teams site](https://teams.microsoft.c
 
   - [Linux clients](https://docs.microsoft.com/en-us/azure/virtual-desktop/linux-overview)
 
-    
-
 ## Demo guide
 
 Follow the [documentation](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) that contains the demo scripts.
 
 Following list of technology can be part of your demo:
 
-**RedDogProductions AZURE AD**
+## RedDogProductions AZURE AD
 
 - Company branding
 
 - 25 M365 E5 License auto assigned to dynamic group
 
-- Azure AD Connect 
+- Azure AD Connect
   - synchronized users & groups
   - Password synchronization
   - Pass Through Authentication
 
-- Azure AD Connect Health      
+- Azure AD Connect Health
 
 - Privileged identity management
 - Identity Governance
@@ -125,11 +118,9 @@ Following list of technology can be part of your demo:
 - Azure AD SSO client
 - Multifactor authentication
 
- 
+## AZURE MSDN SUBSCRIPTION
 
-**AZURE MSDN SUBSCRIPTION**
-
-- Azure Custom Images 
+- Azure Custom Images
 
 - Azure Shared Image Gallery (shared to other Tenant/Subscriptions)
 
@@ -151,7 +142,7 @@ Following list of technology can be part of your demo:
 
 - Azure Lab Services
 
-- Azure Security Center 
+- Azure Security Center
 
 - Azure Sentinel
 
@@ -159,9 +150,7 @@ Following list of technology can be part of your demo:
 
 - Azure Monitor (WVD service + other services integrated in Log Analytics)
 
-  
-
-**AZURE AIRS SUBSCRIPTION**
+## AZURE AIRS SUBSCRIPTION
 
 - Azure vWAN + Azure Firewall
 
@@ -208,8 +197,6 @@ Following list of technology can be part of your demo:
 
 - Network Watcher
 
-  
-
 ## Roadmap
 
 the pilot starts in the Belgian sub, when successful we plan to expand this environment with more services and to more regions.
@@ -228,7 +215,7 @@ services on roadmap:
 
 \-     MDATP W10 + W10 MU
 
-\-     Service Endpoints / Private Link 
+\-     Service Endpoints / Private Link
 
 \-     Private Link Service
 
@@ -240,13 +227,11 @@ services on roadmap:
 
 \-     NAT Gateway
 
-
-
 ## Contributing
 
 There are a few ways to contribute to this project:
 
-1. help with the lifecycle management of the project 
+1. help with the lifecycle management of the project
 
 2. 'attach' your AIRS subscription to the tenant (Azure Lighthouse) and build services on top of the demo environment
 
@@ -272,4 +257,4 @@ Cloud Solution Architect - Customer Success Unit
 
 Windows Virtual Desktop Champ (BE sub)
 
-Project Link: https://github.com/reddogproductions/AzureDemoLab
+Project Link: <https://github.com/reddogproductions/AzureDemoLab>
