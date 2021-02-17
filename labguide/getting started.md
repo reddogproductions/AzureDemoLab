@@ -4,15 +4,13 @@ Please go through all recommendations to insure a smooth demo experience with yo
 
 To safeguard the demo environment access needs to be approved first , this can be done by joining the [RedDogProductions](https://teams.microsoft.com/l/team/19%3a6904744e8f2943ca9d221d5988d42734%40thread.tacv2/conversations?groupId=f6174a3a-7450-417c-87a9-77c85d11aa06&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Teams channel and request your @reddogproductions.tech account login credentials.
 When you receive your account credentials you will need to go through a few additional steps to complete the account setup.
-Open a in-private browser session and navigate to https://www.office.com, login with the new account and follow the wizard to add your phone number and alternative email address.
+Open a in-private browser session and navigate to <https://www.office.com>, login with the new account and follow the wizard to add your phone number and alternative email address.
 
-Verify you can log-in to https://portal.azure.com and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
+Verify you can log-in to <https://portal.azure.com> and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
 
 <img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20account.png" alt="login" style="zoom:67%;" />
 
 <img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20directory.png" alt="tenant" style="zoom:67%;" />
-
-
 
 ## Start/Stop VM's
 
@@ -30,7 +28,7 @@ download the Azure App from your app store provider.
 
 request the PowerApp to be shared with you (Teams Channel)
 
-###  Azure LightHouse
+### Azure LightHouse
 
 ![lighthouse search](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousesearch.png)
 
@@ -52,8 +50,6 @@ Notice your role on the AIRS subscription and select Resource Groups, these will
 
 ![lighthouse resources](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthouseresources.png)
 
-
-
 Select the resource group containing the WVD resources
 
 ![wvd resources](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousewvdvms.png)
@@ -66,23 +62,14 @@ Select the first VM and click start
 
 <img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousestartstopvm.png" alt="start stop vm" style="zoom: 67%;" />
 
-
-
 Whatever tool you are using, don't forget to shut the VM's back down when no longer needed.
 
+## Reference links
 
+Azure Lighthouse: <https://docs.microsoft.com/en-us/azure/lighthouse/overview>
 
-## Reference links:
+PowerApps: <https://docs.microsoft.com/en-us/powerapps/powerapps-overview>
 
-Azure Lighthouse: https://docs.microsoft.com/en-us/azure/lighthouse/overview
+Azure Mobile App: <https://azure.microsoft.com/nl-nl/features/azure-portal/mobile-app/>
 
-PowerApps: https://docs.microsoft.com/en-us/powerapps/powerapps-overview
-
-Azure Mobile App: https://azure.microsoft.com/nl-nl/features/azure-portal/mobile-app/
-
-Start/Stop VM's: https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management
-
-
-
-
-
+Start/Stop VM's: <https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management>
