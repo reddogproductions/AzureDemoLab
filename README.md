@@ -10,26 +10,6 @@ MSFT private Azure demo environment
 
 [View Demo](https://rdweb.wvd.microsoft.com/arm/webclient/index.html) • [Report Bug](https://github.com/reddogproductions/AzureDemoLab/issues)
 
-## Table of Contents
-
-[About The Demo Environment](About The Demo Environment)
-
-[Split setup approach](Split setup approach)
-
-[Demo Storyline](Demo Storyline)
-
-[Request access](Request access)
-
-[Prerequisites](Prerequisites)
-
-[Demo guide](Demo guide)
-
-[Roadmap](Roadmap)
-
-[Contributing](Contributing)
-
-[Contact](Contact)
-
 ## Audience
 
 This demo environment is to be used by Microsoft Employees, currently the scope is limited to the Belgian subsidiary.
