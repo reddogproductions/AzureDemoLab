@@ -37,7 +37,7 @@ Too many reasons not to give this a try right?
 ## Split setup approach
 
 This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
-This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are low cost B series (where possible) running on Standard SSD storage and scheduled to automatically start and stop.
+This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are spot VM's and scheduled to automatically start and stop.
 
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
 
@@ -104,7 +104,7 @@ Following list of technology can be part of your demo:
 
 - Azure Shared Image Gallery (shared to other Tenant/Subscriptions)
 
-- Windows Virtual Desktop (Spring 2020 update)
+- Windows Virtual Desktop (ARM)
 
   - Pooled Desktop with W10 Multi-User
   - Personal Desktops (developers)
@@ -113,6 +113,7 @@ Following list of technology can be part of your demo:
     - GPU application (design/engineering)
   - FSLogix user profiles
   - Domain Joined Azure Files
+  - App Attach
 
 - Azure DevTest Labs
 
