@@ -184,20 +184,15 @@ the pilot starts in the Belgian sub, when successful we plan to expand this envi
 
 services on roadmap:
 
-
 \-     SCCM/INTUNE
 
 \-     MDATP W10 + W10 MU
 
 \-     Service Endpoints / Private Link
 
-\-     Azure Migrate
-
 \-     Azure ARC
 
 \-     Azure Application Proxy
-
-\-     NAT Gateway
 
 ## Contributing
 
