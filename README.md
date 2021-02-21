@@ -184,21 +184,12 @@ the pilot starts in the Belgian sub, when successful we plan to expand this envi
 
 services on roadmap:
 
-\-     Proxy Server (WVD)
-
-\-     Azure DevOps integration
-
-\-     Integrate Teams (waiting for public preview)
 
 \-     SCCM/INTUNE
-
-\-     S2S VPN to show hybrid options
 
 \-     MDATP W10 + W10 MU
 
 \-     Service Endpoints / Private Link
-
-\-     Private Link Service
 
 \-     Azure Migrate
 
