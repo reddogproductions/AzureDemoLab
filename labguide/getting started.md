@@ -1,3 +1,5 @@
+## How to get started ##
+
 Please go through all recommendations to insure a smooth demo experience with your customer
 
 ## Activate your Account
@@ -61,8 +63,6 @@ filter on virtual machines
 Select the first VM and click start
 
 <img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousestartstopvm.png" alt="start stop vm" style="zoom: 67%;" />
-
-Whatever tool you are using, don't forget to shut the VM's back down when no longer needed.
 
 ## Reference links
 
