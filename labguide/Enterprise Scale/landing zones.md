@@ -10,25 +10,24 @@ This means we used a Github CI/CD pipelines from our forked repository <https://
 
 By default, all recommendations are enabled and we must explicitly disable them if we don't want it to be deployed and configured.
 
-A scalable **Management Group hierarchy** aligned to core platform capabilities, allowing you to operationalize at scale using centrally managed Azure RBAC and Azure Policy where platform and workloads have clear separation.  
-**Azure Policies** that will enable autonomy for the platform and the landing zones.  
-**An Azure subscription dedicated for management**, which enables core platform capabilities at scale using Azure Policy such as:  
-A **Log Analytics** workspace and an Automation account  
+- A scalable Management Group hierarchy aligned to core platform capabilities, allowing you to operationalize at scale using centrally managed Azure RBAC and Azure Policy where platform and workloads have clear separation
+- Azure Policies that will enable autonomy for the platform and the landing zones.
+- An Azure subscription dedicated for management, which enables core platform capabilities at scale using Azure Policy such as:
+  - A Log Analytics workspace and an Automation account
+  - Azure Security Center monitoring
+  - Azure Security Center (Standard or Free tier)
+  - Azure Sentinel
+  - Diagnostics settings for Activity Logs, VMs, and PaaS resources sent to Log Analytics
+- A landing zone subscription for Azure native, internet-facing applications and Resources, and specific workload Azure Policies such as:
+  - Enforce VM monitoring (Windows & Linux)
+  - Enforce VMSS monitoring (Windows & Linux)
+  - Enforce Azure Arc VM monitoring (Windows & Linux)
+  - Enforce VM backup (Windows & Linux)
+  - Enforce secure access (HTTPS) to storage accounts
+  - Enforce auditing for Azure SQL
+  - Enforce encryption for Azure SQL
+  - Prevent IP forwarding
+  - Prevent inbound RDP from internet
+  - Ensure subnets are associated with NSG
 
-Azure Security Center (**Standard**)  
-**Azure Sentinel**  
-**Diagnostics settings** for Activity Logs, VMs, and PaaS resources sent to Log Analytics  
-**A landing zone subscription** for Azure native, internet-facing applications and Resources, and specific workload Azure Policies such as:  
-Enforce VM monitoring (Windows & Linux)  
-Enforce VMSS monitoring (Windows & Linux)  
-Enforce Azure Arc VM monitoring (Windows & Linux)  
-Enforce VM backup (Windows & Linux)  
-Enforce secure access (HTTPS) to storage accounts  
-Enforce auditing for Azure SQL  
-Enforce encryption for Azure SQL  
-Prevent IP forwarding  
-Prevent inbound RDP from internet  
-Ensure subnets are associated with NSG  
-Enterprise-Scale without connectivity  
-
-![Wingtip](https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/docs/reference/wingtip/media/es-without-networking.PNG)
+![Enterprise-Scale without connectivity](./media/es-without-networking.PNG)
