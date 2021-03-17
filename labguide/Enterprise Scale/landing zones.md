@@ -10,15 +10,15 @@ This means we used a Github CI/CD pipelines from our forked repository <https://
 
 By default, all recommendations are enabled and we must explicitly disable them if we don't want it to be deployed and configured.
 
-A scalable *Management Group hierarchy* aligned to core platform capabilities, allowing you to operationalize at scale using centrally managed Azure RBAC and Azure Policy where platform and workloads have clear separation.  
-*Azure Policies* that will enable autonomy for the platform and the landing zones.  
-An Azure subscription dedicated for management, which enables core platform capabilities at scale using Azure Policy such as:  
-A *Log Analytics* workspace and an Automation account  
-Azure Security Center monitoring  
-Azure Security Center (Standard or Free tier)  
-Azure Sentinel  
-Diagnostics settings for Activity Logs, VMs, and PaaS resources sent to Log Analytics  
-A landing zone subscription for Azure native, internet-facing applications and Resources, and specific workload Azure Policies such as:  
+A scalable **Management Group hierarchy** aligned to core platform capabilities, allowing you to operationalize at scale using centrally managed Azure RBAC and Azure Policy where platform and workloads have clear separation.  
+**Azure Policies** that will enable autonomy for the platform and the landing zones.  
+**An Azure subscription dedicated for management**, which enables core platform capabilities at scale using Azure Policy such as:  
+A **Log Analytics** workspace and an Automation account  
+
+Azure Security Center (**Standard**)  
+**Azure Sentinel**  
+**Diagnostics settings** for Activity Logs, VMs, and PaaS resources sent to Log Analytics  
+**A landing zone subscription** for Azure native, internet-facing applications and Resources, and specific workload Azure Policies such as:  
 Enforce VM monitoring (Windows & Linux)  
 Enforce VMSS monitoring (Windows & Linux)  
 Enforce Azure Arc VM monitoring (Windows & Linux)  
