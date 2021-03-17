@@ -31,4 +31,4 @@ Prevent inbound RDP from internet
 Ensure subnets are associated with NSG
 Enterprise-Scale without connectivity
 
-[Wingtip](https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/docs/reference/wingtip/media/es-without-networking.PNG)
+![Wingtip](https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/docs/reference/wingtip/media/es-without-networking.PNG)
