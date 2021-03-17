@@ -3,7 +3,7 @@
 
 ## Enterprise Scale In A Box
 
-This environment has been setup according the guidelines [Enterprise Scale in a box](https://github.com/Azure/Enterprise-Scale/blob/main/docs/enterprise-scale-iab/README.md)
+This environment has been setup according to the guidelines of[Enterprise Scale in a box](https://github.com/Azure/Enterprise-Scale/blob/main/docs/enterprise-scale-iab/README.md).
 This means we used a Github CI/CD pipelines from our forked repository <https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/README.md>, at current time we selected to deploy the Wingtip example (Cloud only).
 
 ### What is implemented?
@@ -31,4 +31,4 @@ Prevent inbound RDP from internet
 Ensure subnets are associated with NSG
 Enterprise-Scale without connectivity
 
-<https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/docs/reference/wingtip/media/es-without-networking.PNG>
+[Wingtip](https://github.com/reddogproductions/Enterprise-Scale-in-a-box/blob/main/docs/reference/wingtip/media/es-without-networking.PNG)
