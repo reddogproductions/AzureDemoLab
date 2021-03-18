@@ -22,7 +22,8 @@ following virtual networks are linked to the North Europe vWAN
 ## cross tenant VNET Peerings
 
 peering from MSDN vnet to AIRS vWAN
+![crosstenantpeering](https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/crosstenantpeering.png)
 
-**Reference Links**
-[vWAN docs](https://docs.microsoft.com/en-us/azure/virtual-wan/)
-[crosstenant peering](https://docs.microsoft.com/en-us/azure/virtual-wan/cross-tenant-vnet)
+**Reference Links**  
+[vWAN docs](https://docs.microsoft.com/en-us/azure/virtual-wan/)  
+[crosstenant peering](https://docs.microsoft.com/en-us/azure/virtual-wan/cross-tenant-vnet)  
