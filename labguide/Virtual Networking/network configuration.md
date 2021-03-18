@@ -3,9 +3,9 @@
 
 ## vWAN Configuration
 
-The West Europe AIRS subscription counts 2 Virtual WAN hubs and provides any to any connections.
+The West Europe AIRS subscription counts 2 Virtual WAN hubs and provides any to any connections.  
 The hub in West Europe is what we call a *secure hub*, meaning we have a firewall installed in it.
-![vwanhub](https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/vWAN hubs.png)
+![vwanhub](<https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/vWAN%20hubs.png>)
 
 ## Virtual Networks
 
