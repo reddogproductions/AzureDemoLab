@@ -3,19 +3,17 @@
 
 ## vWAN Configuration
 
-The West Europe AIRS subscription counts 2 Virtual WAN hubs:
-West Europe:
-
-North Europe:
+The West Europe AIRS subscription counts 2 Virtual WAN hubs and provides any to any connections.
+The hub in West Europe is what we call a *secure hub*, meaning we have a firewall installed in it.
+![vwanhub](https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/vWAN hubs.png)
 
 ## Virtual Networks
 
 following virtual networks are linked to the West Europe vWAN:
 
-- wvd vnet
-- identity vnet
+- wvd vnet (session hosts)
+- identity vnet (domain controller)
 - lab service vnet
-- externals
 
 following virtual networks are linked to the North Europe vWAN
 
@@ -24,3 +22,7 @@ following virtual networks are linked to the North Europe vWAN
 ## cross tenant VNET Peerings
 
 peering from MSDN vnet to AIRS vWAN
+
+**Reference Links**
+[vWAN docs](https://docs.microsoft.com/en-us/azure/virtual-wan/)
+[crosstenant peering](https://docs.microsoft.com/en-us/azure/virtual-wan/cross-tenant-vnet)
