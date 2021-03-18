@@ -141,7 +141,7 @@ Following list of technology can be part of your demo:
 
 - Network security Groups
 
-- VNET peering to MSDN subscription
+- cross tenant/subscription VNET peering
 
 - Azure Bastion for secure access
 
@@ -191,8 +191,6 @@ services on roadmap:
 \-     Service Endpoints / Private Link
 
 \-     Azure ARC
-
-\-     Azure Application Proxy
 
 ## Contributing
 
