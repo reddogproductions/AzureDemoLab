@@ -26,3 +26,12 @@ to view the details, click on the job:
 and its details
 
 ![rundetails](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/viewrundetatail.png)
+
+## Reports
+
+Once the build is done you can review the result in the Wiki folder (repository)
+
+![report](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/downloadreport.png)
+
+Open the file when dowmloaded
+
