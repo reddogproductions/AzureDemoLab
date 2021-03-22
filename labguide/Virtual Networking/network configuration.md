@@ -18,6 +18,9 @@ following virtual networks are linked to the West Europe vWAN:
 following virtual networks are linked to the North Europe vWAN
 
 - wvd vnet
+- identity vnet (domain controller)
+
+Internet and internal connections are protected by the Azure Firewall and its FW policy.
 
 ## cross tenant VNET Peerings
 
