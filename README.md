@@ -32,13 +32,14 @@ as an example: Let's have a look at the options we (CSA's) have to show Windows 
 By introducing this new 'full featured' and reusable WVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Adding Power Platform,data solutions, DevOps,...
 Each specialist can truly showcase our products/solutions/integrations between services without having to fall back on PowerPoint slides (demo guides available!) and when multiple users use the same environment, then there is even more data to work with and the results will be even more compelling!
 
-Last but not least, look at the competitive advantage we have over our competition, how we can truly show end-to-end scenario's. Not only between different services, but also between our clouds.
+Last but not least, look at the competitive advantage we have over our competition, how we can truly show end-to-end scenario's. Not only between different services, but also between our clouds!
 
 Too many reasons not to give this a try right?
 
 ## Split setup approach
 
-This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was the internal code name for Azure)
+This demo environment has a split setup and uses both the internal AIRS subscription and Visual studio subscriptions. 
+To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was once the internal code name for Azure)
 This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are spot VM's and scheduled to automatically start and stop.
 
 ![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
