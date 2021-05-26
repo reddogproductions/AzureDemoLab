@@ -6,32 +6,32 @@
 This tool is based upon Azure DevOps repository and CI/CD pipelines.  
 Navigate to <https://dev.azure.com>, login with your RDP credentials and select the AzGovViz project  
 
-![azgovviz](./images/enterprisescale/azgovviz.png)
+![azgovviz](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/azgovviz.png)
 
 **repository:**
 Make note of the Wiki folder as AzGovViz creates the output in this folder
 
-![repo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/wiki.png)
+![repo](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/wiki.png)
 
 **Pipeline:**
 Navigate to the pipeline and run it (it automatically runs 2x day, but it's cool just to see it run :))  
 
-![pipeline](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/pipeline.png)
-![runpipe](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/runpipeline.png)
+![pipeline](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/pipeline.png)
+![runpipe](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/runpipeline.png)
 
 to view the details, click on the job:
 
-![viewrun](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/viewrun.png)
+![viewrun](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/viewrun.png)
 
 and its details
 
-![rundetails](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/viewrundetatail.png)
+![rundetails](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/viewrundetatail.png)
 
 ## Reports
 
 Once the build is done you can review the result in the Wiki folder (repository)
 
-![report](https://chlams.blob.core.windows.net/public/reddogproductions/pics/enterprisescale/downloadreport.png)
+![report](https://github.com/reddogproductions/AzureDemoLab/tree/main/images/pics/enterprisescale/downloadreport.png)
 
 Open the file when dowmloaded
 
