@@ -5,7 +5,7 @@
 
 The West Europe AIRS subscription counts 2 Virtual WAN hubs and provides any to any connections.  
 The hub in West Europe is what we call a *secure hub*, meaning we have a firewall installed in it.
-![vwanhub](<https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/vWAN%20hubs.png>)
+![vwanhub](<https://github.com/reddogproductions/AzureDemoLab/blob/main/images/pics/networking/vWAN%20hubs.png>)
 
 ## Virtual Networks
 
@@ -27,7 +27,7 @@ peering from MSDN vnet to AIRS vWAN
 
 - WVD vnet
 - identity vnet
-![crosstenantpeering](https://chlams.blob.core.windows.net/public/reddogproductions/pics/networking/crosstenantpeering.png)
+![crosstenantpeering](https://github.com/reddogproductions/AzureDemoLab/blob/main/images/pics/networking/crosstenantpeering.png)
 
 **Reference Links**  
 [vWAN docs](https://docs.microsoft.com/en-us/azure/virtual-wan/)  
