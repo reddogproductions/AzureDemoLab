@@ -6,7 +6,7 @@
 This tool is based upon Azure DevOps repository and CI/CD pipelines.  
 Navigate to <https://dev.azure.com>, login with your RDP credentials and select the AzGovViz project  
 
-![azgovviz](../images/enterprisescale/azgovviz.png)
+![azgovviz](./images/enterprisescale/azgovviz.png)
 
 **repository:**
 Make note of the Wiki folder as AzGovViz creates the output in this folder
