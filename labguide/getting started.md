@@ -10,9 +10,9 @@ Open a in-private browser session and navigate to <https://www.office.com>, logi
 
 Verify you can log-in to <https://portal.azure.com> and select the RedDogProductions tenant, you should also be able to list the 3 linked subscriptions
 
-<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20account.png" alt="login" style="zoom:67%;" />
+<img src="https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/azure%20account.png" alt="login" style="zoom:67%;" />
 
-<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/azure%20directory.png" alt="tenant" style="zoom:67%;" />
+<img src="https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/azure%20directory.png" alt="tenant" style="zoom:67%;" />
 
 ## Start/Stop VM's
 
@@ -26,43 +26,43 @@ download the Azure App from your app store provider.
 
 ### Azure PowerApp
 
-![powerapp](https://chlams.blob.core.windows.net/public/reddogproductions/pics/powerapps/startstopvms.png)
+![powerapp](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/powerapps/startstopvms.png)
 
 request the PowerApp to be shared with you (Teams Channel)
 
 ### Azure LightHouse
 
-![lighthouse search](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousesearch.png)
+![lighthouse search](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousesearch.png)
 
 select Manage your customers
 
-![Lighthouse manage](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousemanage.png)
+![Lighthouse manage](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousemanage.png)
 
 Select Microsoft customer (or click delegations)
 
-![Lighthouse customers](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousecustomers.png)
+![Lighthouse customers](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousecustomers.png)
 
 Select the AIRS subscription
 
-![lighthouse delegation](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/Lighthousedelegation.png)
+![lighthouse delegation](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/Lighthousedelegation.png)
 
 Notice your role on the AIRS subscription and select Resource Groups, these will vary according to your rights
 
-![lighthouse access rights](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighouseaccess.png)
+![lighthouse access rights](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighouseaccess.png)
 
-![lighthouse resources](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthouseresources.png)
+![lighthouse resources](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthouseresources.png)
 
 Select the resource group containing the WVD resources
 
-![wvd resources](https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousewvdvms.png)
+![wvd resources](https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousewvdvms.png)
 
 filter on virtual machines
 
-<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousevmfilter.png" alt="VM filter" style="zoom:67%;" />
+<img src="https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousevmfilter.png" alt="VM filter" style="zoom:67%;" />
 
 Select the first VM and click start
 
-<img src="https://chlams.blob.core.windows.net/public/reddogproductions/pics/intro/lighthousestartstopvm.png" alt="start stop vm" style="zoom: 67%;" />
+<img src="https://github.com/reddogproductions/AzureDemoLab/tree/main/images//pics/intro/lighthousestartstopvm.png" alt="start stop vm" style="zoom: 67%;" />
 
 ## Reference links
 
