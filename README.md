@@ -1,7 +1,7 @@
 
 # Welcome
 
-![Logo](https://chlams.blob.core.windows.net/public/reddogproductions/pics/rdp_logo.png)
+![Logo](https://github.com/reddogproductions/AzureDemoLab/blob/main/images/pics/rdp_logo.png)
 
 ## <https://github.com/reddogproductions/AzureDemoLab>
 
@@ -42,7 +42,7 @@ This demo environment has a split setup and uses both the internal AIRS subscrip
 To make use of the 25 included M365 Visual Studio licenses, a new tenant was created with the custom domain reddogproductions.tech on reddogproductions.onmicrosoft.com. (if you wonder where the name came from, Red Dog was once the internal code name for Azure)
 This split setup gives us best of both worlds, Azure AD without (management) limitations and a subscription with enough budget to keep the environment live during business (demo) hours. Having such budget is welcome, but still we always try to keep a low TCO in mind: Virtual machines are spot VM's and scheduled to automatically start and stop.
 
-![cross tenant approach](https://chlams.blob.core.windows.net/public/reddogproductions/design/crosstenant.png)
+![cross tenant approach](https://github.com/reddogproductions/AzureDemoLab/blob/main/images/design/crosstenant.png)
 
 Another advantage of this split setup is that you can also show what options we have to work cross tenant/subscription.
 
