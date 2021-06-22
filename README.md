@@ -189,8 +189,6 @@ services on roadmap:
 
 \-     SCCM/INTUNE
 
-\-     MDATP W10 + W10 MU
-
 \-     Service Endpoints / Private Link
 
 \-     Azure ARC
