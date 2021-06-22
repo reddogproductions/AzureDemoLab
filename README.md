@@ -8,7 +8,7 @@
 MSFT private Azure demo environment
 [**Explore the docs 📃**](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide)
 
-[View Demo](https://rdweb.wvd.microsoft.com/arm/webclient/index.html) • [Report Bug](https://github.com/reddogproductions/AzureDemoLab/issues)
+[View Demo](https://rdweb.AVD.microsoft.com/arm/webclient/index.html) • [Report Bug](https://github.com/reddogproductions/AzureDemoLab/issues)
 
 ## Audience
 
@@ -18,7 +18,7 @@ This demo environment is to be used by Microsoft Employees, currently the scope 
 
 There are a few reasons why I wanted to build this demo environment, the first one is that I just like our technology and love to build and play around with it to increase my own knowledge. A second reason is the Microsoft Certified Trainer in me that would like this environment to be used by others to improve their knowledge on Azure solutions. You might have an upcoming Azure exam (TSI) and want to know how our services are configured and glued together into solutions? Then this could be a good place to start!
 
-A less obvious reason is that some of our solutions can't be put into a single category. Look at Windows Virtual Desktop for example: Windows 10 and Azure AD (premium) are usually handled by our Modern Workplace specialist. Virtual Machines, virtual networks and firewalls fall under the category of Azure and handled by the Cloud Solution Architects. This introduces some issues when we want to demo this service: Cloud Solution Architects have access to internal Azure subscriptions, but not to Azure AD and MW specialist usually don't have access to services running on Azure (WVD, Sentinel..).
+A less obvious reason is that some of our solutions can't be put into a single category. Look at Windows Virtual Desktop for example: Windows 10 and Azure AD (premium) are usually handled by our Modern Workplace specialist. Virtual Machines, virtual networks and firewalls fall under the category of Azure and handled by the Cloud Solution Architects. This introduces some issues when we want to demo this service: Cloud Solution Architects have access to internal Azure subscriptions, but not to Azure AD and MW specialist usually don't have access to services running on Azure (AVD, Sentinel..).
 
 as an example: Let's have a look at the options we (CSA's) have to show Azure Virtual Desktop to your customers:
 
@@ -29,7 +29,7 @@ as an example: Let's have a look at the options we (CSA's) have to show Azure Vi
 | Microsoft internal subscription                   | subscription with budget       | no rights on the MSFT Azure AD tenant      |
 | PowerPoint clickthrough WVD demo                  | the 'safe' option              | slideware                                  |
 
-By introducing this new 'full featured' and reusable WVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Adding Power Platform,data solutions, DevOps,...
+By introducing this new 'full featured' and reusable AVD (and more) demo environment we now have a new option where you have control over everything that  a modern organization could deploy on Azure. Now, what if this demo environment would be used cross business unit? not only by the techies but also the sellers? Adding Power Platform,data solutions, DevOps,...
 Each specialist can truly showcase our products/solutions/integrations between services without having to fall back on PowerPoint slides (demo guides available!) and when multiple users use the same environment, then there is even more data to work with and the results will be even more compelling!
 
 Last but not least, look at the competitive advantage we have over our competition, how we can truly show end-to-end scenario's. Not only between different services, but also between our clouds!
@@ -63,7 +63,7 @@ request your credentials in the following [Teams site](https://teams.microsoft.c
 
 - HTML5 browser client ([Edge Chromium](https://support.microsoft.com/en-us/microsoft-edge/download-the-new-microsoft-edge-based-on-chromium-0f4a3dd7-55df-60f5-739f-00010dba52cf), Google Chrome,..)
 
-- WVD client
+- AVD client
 
   - [Windows](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop#install-the-client) [Windows Store](https://docs.microsoft.com/en-us/azure/virtual-desktop/connect-microsoft-store)
 
@@ -97,7 +97,7 @@ Following list of technology can be part of your demo:
 - Privileged identity management
 - Identity Governance
 - Azure monitor + Sentinel integration
-- Conditional Access Policies for WVD
+- Conditional Access Policies for AVD
 - Azure AD SSO client
 - Multifactor authentication
 
@@ -132,13 +132,13 @@ Following list of technology can be part of your demo:
 
 - Azure Management Groups
 
-- Azure Monitor (WVD service + other services integrated in Log Analytics)
+- Azure Monitor (AVD service + other services integrated in Log Analytics)
 
 ## AZURE AIRS SUBSCRIPTION
 
 - Azure vWAN + Azure Firewall
 
-- Virtual Network for WVD Session Hosts
+- Virtual Network for AVD Session Hosts
 
 - virtual Network for IAM (domain controller)
 
@@ -153,14 +153,14 @@ Following list of technology can be part of your demo:
   - DNS
   - users & computers
   - Azure AD Connect
-  - Group Policies for WVD
+  - Group Policies for AVD
 
 - Azure Automation Account
 
   - Patching VM’s
   - Auto Start / Stop VM’s
 
-- Azure Monitor (WVD session hosts + other services integrated in Log Analytics)
+- Azure Monitor (AVD session hosts + other services integrated in Log Analytics)
 
 - Azure Security Center (Standard)
 
@@ -175,7 +175,7 @@ Following list of technology can be part of your demo:
 
 - Azure Cost Management + Budget Alerts
 
-- Azure Site Recovery (DC + WVD hosts)
+- Azure Site Recovery (DC + AVD hosts)
 
 - Azure LightHouse
 
