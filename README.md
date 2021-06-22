@@ -20,7 +20,7 @@ There are a few reasons why I wanted to build this demo environment, the first o
 
 A less obvious reason is that some of our solutions can't be put into a single category. Look at Windows Virtual Desktop for example: Windows 10 and Azure AD (premium) are usually handled by our Modern Workplace specialist. Virtual Machines, virtual networks and firewalls fall under the category of Azure and handled by the Cloud Solution Architects. This introduces some issues when we want to demo this service: Cloud Solution Architects have access to internal Azure subscriptions, but not to Azure AD and MW specialist usually don't have access to services running on Azure (WVD, Sentinel..).
 
-as an example: Let's have a look at the options we (CSA's) have to show Windows Virtual Desktop to your customers:
+as an example: Let's have a look at the options we (CSA's) have to show Azure Virtual Desktop to your customers:
 
 | solution                                          | pro                            | con                                        |
 | ------------------------------------------------- | ------------------------------ | ------------------------------------------ |
@@ -51,9 +51,9 @@ Another advantage of this split setup is that you can also show what options we 
 storyline: RedDogProductions is a fictive IT service company that develops and consults on the Microsoft Azure platform.
 RDP has offices in the US and Europe and share the same Azure AD, while Azure subscriptions are region bound.
 
-While the offices have access restrictions due to Corona, RDP has enabled Windows Virtual Desktop for all employees who require access to internal applications. After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
+While the offices have access restrictions due to Corona, RDP has enabled Azure Virtual Desktop for all employees who require access to internal applications. After a successful pilot, RDP has decided to expand the scope and also offer personalized desktops for their developers and remote apps for frontline workers.
 
-Walk through the [demo script](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) to showcase Windows Virtual Desktop and related Azure Services
+Walk through the [demo script](https://github.com/reddogproductions/AzureDemoLab/tree/main/labguide) to showcase Azure Virtual Desktop and related Azure Services
 
 ### Request access
 
@@ -107,7 +107,7 @@ Following list of technology can be part of your demo:
 
 - Azure Shared Image Gallery (shared to other Tenant/Subscriptions)
 
-- Windows Virtual Desktop (ARM)
+- Azure Virtual Desktop (ARM)
 
   - Pooled Desktop with W10 Multi-User
   - Personal Desktops (developers)
@@ -223,7 +223,7 @@ Christophe Lams: christophe [dot] lams [@] Microsoft [dot] com
 
 Cloud Solution Architect - Customer Success Unit
 
-Windows Virtual Desktop Champ (BE sub)
+Azure Virtual Desktop Champ (BE sub)
 
 Project Link: <https://github.com/reddogproductions/AzureDemoLab>
 

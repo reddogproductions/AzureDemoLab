@@ -11,13 +11,13 @@ The hub in West Europe is what we call a *secure hub*, meaning we have a firewal
 
 following virtual networks are linked to the West Europe vWAN:
 
-- wvd vnet (session hosts)
+- AVD vnet (session hosts)
 - identity vnet (domain controller)
 - lab service vnet
 
 following virtual networks are linked to the North Europe vWAN
 
-- wvd vnet
+- AVD vnet
 
 Internet and internal connections are protected by the Azure Firewall and its FW policy.
 
@@ -25,7 +25,7 @@ Internet and internal connections are protected by the Azure Firewall and its FW
 
 peering from MSDN vnet to AIRS vWAN
 
-- WVD vnet
+- AVD vnet
 - identity vnet
 ![crosstenantpeering](https://github.com/reddogproductions/AzureDemoLab/blob/main/images/pics/networking/crosstenantpeering.png)
 
